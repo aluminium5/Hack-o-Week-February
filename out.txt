@@ -1,0 +1,112 @@
+==================================================
+Testing Entity Extraction & Response Generation (Updated Timetable)
+==================================================
+
+Question:  What exams are on Tuesday?
+Entities:  {'semester': None, 'course': None, 'date': '17/03/2026'}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 4 — Microcontrollers and Embedded Systems 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+  - Semester 6 — Introduction to Android Programming 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+  - Semester 2 — Aptitude and Reasoning- II 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 11:30 AM to 12:30 PM (Shift II)
+  - Semester 4 — Flexi-Credit Course (Java) 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 1:30 PM to 2:30 PM (Shift III)
+  - Semester 6 — Elective - I (HCI/IMLDS/CCTT/OSTCSF) 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 1:30 PM to 2:30 PM (Shift III)
+  - Semester 2 — Statistics and Probability 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 3:30 PM to 4:30 PM (Shift IV)
+
+--------------------------------------------------
+
+Question:  When is Operating Systems?
+Entities:  {'semester': None, 'course': 'Operating Systems', 'date': None}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 4 — Operating Systems 
+📅 Date: 18/03/2026 (Wednesday) 
+⏰ Time: 1:30 PM to 2:30 PM (Shift III)
+
+--------------------------------------------------
+
+Question:  What exams does semester 2 have on 20th?
+Entities:  {'semester': '2', 'course': None, 'date': '20/03/2026'}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 2 — Nanotechnology 
+📅 Date: 20/03/2026 (Friday) 
+⏰ Time: 11:30 AM to 12:30 PM (Shift II)
+  - Semester 2 — Physics for Quantum Computing 
+📅 Date: 20/03/2026 (Friday) 
+⏰ Time: 11:30 AM to 12:30 PM (Shift II)
+  - Semester 2 — Programming and Problem Solving 
+📅 Date: 20/03/2026 (Friday) 
+⏰ Time: 3:30 PM to 4:30 PM (Shift IV)
+
+--------------------------------------------------
+
+Question:  Is there an Android exam?
+Entities:  {'semester': None, 'course': 'Introduction to Android Programming', 'date': None}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 6 — Introduction to Android Programming 
+📅 Date: 17/03/2026 (Tuesday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+
+--------------------------------------------------
+
+Question:  Timetable for TOC?
+Entities:  {'semester': None, 'course': 'Theory of Computation', 'date': None}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 4 — Theory of Computation 
+📅 Date: 20/03/2026 (Friday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+
+--------------------------------------------------
+
+Question:  When is the DBMS exam?
+Entities:  {'semester': None, 'course': 'Database Management Systems', 'date': None}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 4 — Database Management Systems 
+📅 Date: 18/03/2026 (Wednesday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+
+--------------------------------------------------
+
+Question:  Show me semester 4 exams on 18th March.
+Entities:  {'semester': '4', 'course': None, 'date': '18/03/2026'}
+Response:
+Here are the exam details matching your query:
+
+  - Semester 4 — Database Management Systems 
+📅 Date: 18/03/2026 (Wednesday) 
+⏰ Time: 9:30 AM to 10:30 AM (Shift I)
+  - Semester 4 — Operating Systems 
+📅 Date: 18/03/2026 (Wednesday) 
+⏰ Time: 1:30 PM to 2:30 PM (Shift III)
+
+--------------------------------------------------
+
+Question:  When is SEM 5 CS exam?
+Entities:  {'semester': '5', 'course': None, 'date': None}
+Response:
+I couldn't find any exams matching Semester 5 in the timetable.
+
+--------------------------------------------------
+
